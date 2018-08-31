@@ -16,6 +16,9 @@ header img {
     margin-top: 20px;
     width: 100%;
 }
+#all_logos .logos img {
+    max-width: 220px;
+}
 .logos  {
     width: 33%;
     float: left;
@@ -32,6 +35,31 @@ header img {
 #main_texts {
     margin-top: 50px;
 }
+#lower_texts {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 15px 5px 5px 5px;
+    margin-top: 30px;
+}
+#lower_texts .logos:first-child {
+    text-align: left;
+}
+#lower_texts .logos:last-child {
+    text-align: right;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+#ft_header {
+    margin-bottom: 20px;
+}
+#ft_para p {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 25px;
+    letter-spacing: .5px;
+}
 @media(max-width: 425px) {
     header img {
         max-width: 280px;
@@ -40,11 +68,32 @@ header img {
         width: 100%;
         float: none;
         text-align: center;
-        margin-top: 70px;
+        margin-top: 55px;
     }
     .logos img {
         max-width: 190px;
     }
+    #lower_texts {
+        border: none;
+    }
+    #lower_texts img {
+        max-width: 300px;
+    }
+    #lower_texts .logos {
+        margin-top: 25px;
+    }
+    #lower_texts .logos:first-child {
+        text-align: center;
+    }
+    #lower_texts .logos:last-child {
+        text-align: center;
+    }
+    /* #ft_para {
+        width: 80%;
+    }
+    #ft_para img {
+        max-width: 300px;
+    } */
 }
 
 @media(max-width: 768px) {
