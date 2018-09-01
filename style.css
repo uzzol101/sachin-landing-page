@@ -101,10 +101,10 @@ footer {
     }
     /* #ft_para {
         width: 80%;
-    }
-    #ft_para img {
-        max-width: 300px;
     } */
+    #ft_para img {
+        max-width: 360px;
+    }
 }
 
 @media(max-width: 768px) {
