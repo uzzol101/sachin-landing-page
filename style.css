@@ -24,6 +24,9 @@ header img {
     float: left;
     text-align: center;
 }
+#all_logos .logos_text {
+    display: none;
+}
 .clearfix::after {
     content: "";
     clear: both;
@@ -87,6 +90,14 @@ footer {
     }
     #lower_texts .logos:last-child {
         text-align: center;
+    }
+    #all_logos .logos_text {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #main_texts {
+        display: none;
     }
     /* #ft_para {
         width: 80%;
