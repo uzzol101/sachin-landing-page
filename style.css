@@ -96,7 +96,13 @@ footer {
         text-align: center;
         margin-top: 30px;
     }
-    #main_texts {
+    .logos_text img {
+        margin-bottom: 30px;
+    }
+    .middle-img {
+        max-width: 280px;
+    }
+    #main_texts, #lower_texts {
         display: none;
     }
     /* #ft_para {
